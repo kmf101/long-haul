@@ -1,0 +1,12 @@
+---
+layout: default
+---
+
+<nav>
+  <ul>
+    <li><a href="{{site.baseurl}}/news.html" class="{% if page.url == '/news.html' %}current{% endif %}">News</a></li>
+    <li><a href="{{site.baseurl}}/comingsoon.html" class="{% if page.url == '/comingsoon.html' %}current{% endif %}">Coming Soon</a></li>
+  </ul>
+</nav>
+
+{{content}}
